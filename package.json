@@ -1,0 +1,28 @@
+{
+  "name": "bulk-openai-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/async": "^3.2.20",
+    "@types/levelup": "^5.1.2",
+    "@types/node": "^18.16.3",
+    "@types/node-fetch": "^2.6.3",
+    "@types/papaparse": "^5.3.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "papaparse": "^5.4.1",
+    "sqlite3": "^5.1.6"
+  },
+  "bundleDependencies": [
+    "node-fetch"
+  ]
+}
