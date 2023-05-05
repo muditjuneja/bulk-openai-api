@@ -1,6 +1,6 @@
 {
   "name": "bulk-openai-api",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "The bulk-openai-api package makes bulk requests to OpenAI API and storing the responses in a SQLite database. The handler also provides functionality to export the stored data as a CSV file.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
